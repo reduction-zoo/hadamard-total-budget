@@ -1,0 +1,31 @@
+case 0 n 0 clauses 0 target 36 12 YES
+case 1 n 1 clauses 1 target 52 16 YES
+case 2 n 1 clauses 1 target 52 16 YES
+case 3 n 1 clauses 1 target 52 16 YES
+case 4 n 1 clauses 1 target 52 16 YES
+case 5 n 1 clauses 1 target 52 16 YES
+case 6 n 1 clauses 1 target 52 16 YES
+case 7 n 1 clauses 1 target 52 16 YES
+case 8 n 1 clauses 1 target 52 16 YES
+case 9 n 1 clauses 2 target 90 24 NO
+case 10 n 3 clauses 8 target 682 88 NO
+case 11 n 2 clauses 2 target 136 32 YES
+case 12 n 2 clauses 2 target 136 32 YES
+case 13 n 2 clauses 2 target 136 32 YES
+case 14 n 2 clauses 4 target 252 48 YES
+case 15 n 2 clauses 4 target 252 48 YES
+case 16 n 2 clauses 4 target 252 48 YES
+case 17 n 3 clauses 3 target 252 48 YES
+case 18 n 3 clauses 3 target 252 48 YES
+case 19 n 3 clauses 3 target 252 48 YES
+case 20 n 3 clauses 5 target 400 64 YES
+case 21 n 3 clauses 5 target 400 64 YES
+case 22 n 3 clauses 5 target 400 64 YES
+case 23 n 4 clauses 4 target 400 64 YES
+case 24 n 4 clauses 4 target 400 64 YES
+case 25 n 4 clauses 4 target 400 64 YES
+case 26 n 4 clauses 6 target 580 80 YES
+case 27 n 4 clauses 6 target 580 80 YES
+case 28 n 4 clauses 6 target 580 80 YES
+PASS 29 base sources plus one focused source; 27 YES; 2 NO; 109 recovery calls; 9 algebraic gauges (negative/cubic/reducible included); 4 malformed sources; seed 13013
+Target decision uses independent exact subset enumeration after structural validation; NO correctness also depends on the general product-basis lemma.

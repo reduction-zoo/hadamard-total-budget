@@ -1,0 +1,18 @@
+Traceback (most recent call last):
+  File "/Users/xiweipan/Codes/reduction-research/campaigns/hadamard-total-budget/rounds/001/probe.py", line 24, in <module>
+    assert check.target_witness_valid(t,witness)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "/Users/xiweipan/Codes/reduction-research/campaigns/hadamard-total-budget/work/check.py", line 113, in target_witness_valid
+    values.append([[exact(v) for v in row] for row in a])
+                    ~~~~~^^^
+  File "/Users/xiweipan/Codes/reduction-research/campaigns/hadamard-total-budget/work/check.py", line 56, in exact
+    parsed = z3.parse_smt2_string('(assert (= witness_value '+text+'))', decls={'witness_value': x})
+  File "/opt/homebrew/lib/python3.14/site-packages/z3/z3.py", line 10080, in parse_smt2_string
+    return AstVector(Z3_parse_smtlib2_string(ctx.ref(), s, ssz, snames, ssorts, dsz, dnames, ddecls), ctx)
+                     ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/lib/python3.14/site-packages/z3/z3core.py", line 3770, in Z3_parse_smtlib2_string
+    _elems.Check(a0)
+    ~~~~~~~~~~~~^^^^
+  File "/opt/homebrew/lib/python3.14/site-packages/z3/z3core.py", line 1629, in Check
+    raise self.Exception(self.get_error_message(ctx, err))
+z3.z3types.Z3Exception: b'(error "line 1 column 27: unknown constant /3")\n'

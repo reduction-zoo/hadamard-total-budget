@@ -1,0 +1,7 @@
+PASS valid signed literal fractions and noncanonical leading zeros in endpoints
+PASS rejected '1e4096' at coefficient through literal grammar
+PASS rejected '1e4096' at endpoint through literal grammar
+PASS rejected '1.0' at coefficient through literal grammar
+PASS rejected '1.0' at endpoint through literal grammar
+PASS rejected '(1/2)' at coefficient through literal grammar
+PASS rejected '(1/2)' at endpoint through literal grammar

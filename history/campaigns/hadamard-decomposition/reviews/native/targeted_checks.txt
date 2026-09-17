@@ -1,0 +1,5 @@
+PASS normalized common-neighbor escape query: UNSAT, unrestricted real coordinates
+PASS calibration determinant and six symbolic cycle ratios
+PASS full rational factor product and cubic-algebraic shear recovery: False
+PASS full rational factor product and cubic-algebraic shear recovery: True
+All targeted checks passed. These are local symbolic and finite execution checks, not a proof of global soundness or runtime.

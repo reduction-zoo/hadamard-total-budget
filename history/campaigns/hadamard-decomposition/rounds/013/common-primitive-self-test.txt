@@ -1,0 +1,4 @@
+rejected malformed
+rejected decision
+rejected recovery
+PASS 6 source cases; 4 target cases; irrational witness accepted and invalid product rejected; 3 faulty subprocess fixtures rejected; Z3 5.1.0

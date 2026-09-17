@@ -1,0 +1,9 @@
+error: unknown variable: rank
+   ┌─ campaigns/hadamard-total-budget/work/manuscript.typ:35:29
+   │
+35 │ $ cal(C)_0(M)=min_(M=A ⊙ B) (rank(A)+rank(B)), $ <cost>
+   │                              ^^^^
+   │
+   = hint: if you meant to display multiple letters as is, try adding spaces between each letter: `r a n k`
+   = hint: or if you meant to display this as text, try placing it in quotes: `"rank"`
+

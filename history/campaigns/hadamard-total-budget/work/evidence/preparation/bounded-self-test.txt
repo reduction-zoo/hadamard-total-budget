@@ -1,0 +1,4 @@
+rejected malformed
+rejected decision
+rejected recovery
+PASS 6 source cases; 7 total-budget targets; algebraic and over-budget witness checks; 3 faulty subprocess fixtures; Z3 5.1.0
