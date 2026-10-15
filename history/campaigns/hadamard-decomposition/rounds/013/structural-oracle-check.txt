@@ -1,0 +1,2 @@
+PASS 32 standalone subset-product targets; 16 YES; 16 NO; all YES witnesses entrywise checked; corrupted cycle rejected
+Finite oracle cross-check, not a proof of unrestricted real-factor NO outcomes.

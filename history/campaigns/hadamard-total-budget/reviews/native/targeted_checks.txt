@@ -1,0 +1,3 @@
+PASS localized degree-five root, negative prefix parameters, dense frame gauge, factor swap = False
+PASS localized degree-five root, negative prefix parameters, dense frame gauge, factor swap = True
+PASS complete actual target entries; high-degree representatives not divisible by whole defining polynomial; two fresh-process recoveries

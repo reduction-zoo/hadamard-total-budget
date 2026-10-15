@@ -1,0 +1,1 @@
+PASS actual F=(x1 or x1 or x1), K=4, s=8, budget=16; all 436x64 entries exact. Figure shows only leading 64x64 identity rows, not the full target. Support only, not magnitudes.

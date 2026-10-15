@@ -1,0 +1,1 @@
+PASS figure data: actual source F=(x1 or x1 or x1); 52x16 target; ranks A=2, B=8; all 832 entry products exact; plots show support only.

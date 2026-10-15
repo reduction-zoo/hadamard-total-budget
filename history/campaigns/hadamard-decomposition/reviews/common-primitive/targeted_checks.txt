@@ -1,0 +1,5 @@
+PASS repeated/reducible negative-leading field; degree 5 root; degree-13 coordinates; truth False
+PASS repeated/reducible negative-leading field; degree 2 root; degree-13 coordinates; truth False
+PASS repeated/reducible negative-leading field; degree 5 root; degree-13 coordinates; truth True
+PASS repeated/reducible negative-leading field; degree 2 root; degree-13 coordinates; truth True
+CONFIRMED compressed-exponent witness accepted: 6-character coefficient has 13607 numerator bits

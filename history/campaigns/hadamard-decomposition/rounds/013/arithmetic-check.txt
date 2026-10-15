@@ -1,0 +1,1 @@
+PASS 38 root-count comparisons against independent SymPy Sturm routine; reducible, repeated, negative-leading and degree-five cases

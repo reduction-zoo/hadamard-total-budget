@@ -1,0 +1,16 @@
+case 0 target 180 36 YES
+case 1 target 436 64 YES
+case 2 target 436 64 YES
+case 3 target 436 64 YES
+case 4 target 436 64 YES
+case 5 target 436 64 YES
+case 6 target 436 64 YES
+case 7 target 436 64 YES
+case 8 target 436 64 YES
+case 9 target 1530 144 NO
+case 10 target 3720 256 NO
+case 11 target 1530 144 YES
+case 12 target 3720 256 YES
+case 13 target 3720 256 YES
+PASS 14 distinct sources; 12 YES; 2 NO; 70 recovery calls; 4 algebraic gauges; 4 malformed sources
+Independent enumeration and exact matrix validation; structural NO depends on the frame theorem, not a general large-matrix solver.

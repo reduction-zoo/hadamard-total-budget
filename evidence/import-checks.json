@@ -1,0 +1,60 @@
+[
+  {
+    "check": "uv-lock",
+    "command": [
+      "uv",
+      "lock"
+    ],
+    "exit_code": 0
+  },
+  {
+    "check": "uv-sync",
+    "command": [
+      "uv",
+      "sync",
+      "--locked"
+    ],
+    "exit_code": 0
+  },
+  {
+    "check": "self-test",
+    "command": [
+      "uv",
+      "run",
+      "--locked",
+      "python",
+      "algorithm/check.py",
+      "--self-test"
+    ],
+    "exit_code": 0
+  },
+  {
+    "check": "quartic-interrupted",
+    "command": [
+      "uv",
+      "run",
+      "--locked",
+      "python",
+      "algorithm/check.py",
+      "--candidate",
+      "algorithm/algorithm.py"
+    ],
+    "exit_code": 143,
+    "note": "Stopped to reproduce the documented structural oracle; no quartic verdict obtained."
+  },
+  {
+    "check": "candidate",
+    "command": [
+      "uv",
+      "run",
+      "--locked",
+      "python",
+      "algorithm/check.py",
+      "--candidate",
+      "algorithm/algorithm.py",
+      "--oracle",
+      "frame"
+    ],
+    "exit_code": 0
+  }
+]
